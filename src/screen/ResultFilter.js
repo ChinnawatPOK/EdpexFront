@@ -159,14 +159,14 @@ function ResultFilter(props) {
               {subData &&
                 subData[0].data.map((cur, index1) => (
                   <div>
-                    <li className="bullet text-bold">{cur.ข}</li>
+                    <li className="text-bold">{cur.ข}</li>
                     {/* ---- */}
-                    <ul className="bullet">
+                    <ul>
                       {dataFetch &&
                         index1 == 1 &&
-                        dataFetch.map((cur) => (
+                        dataFetch.map((cur, inx) => (
                           <div>
-                            <li className="bullet">
+                            {/* <li> */}
                               <div id="example-fade-text">
                                 <ul className="bullet">
                                   {cur.outputList != null &&
@@ -199,7 +199,7 @@ function ResultFilter(props) {
                                     ))}
                                 </ul>
                               </div>
-                            </li>
+                            {/* </li> */}
                           </div>
                         ))}
                     </ul>
@@ -498,7 +498,7 @@ function ResultFilter(props) {
                     {/* ---- */}
                     <ul className="bullet">
                       {dataFetch &&
-                        index4 == 0 &&
+                        index4 == 1 &&
                         dataFetch.map((cur) => (
                           <div>
                             <li className="bullet">

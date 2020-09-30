@@ -6,6 +6,7 @@ import UserScreen from "./screen/UserScreen";
 import DatePickerTest from "./screen/DatePickerTest";
 import ResultFilter from "./screen/ResultFilter";
 import SelectedGraph from "./screen/SelectedGraph";
+import Demo from "./screen/demo";
 import "./App.css";
 
 function App() {
